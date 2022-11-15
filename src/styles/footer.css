@@ -1,0 +1,10 @@
+.open-source a {
+  text-decoration: none;
+  color: #45454584;
+}
+
+.open-source {
+  text-align: center;
+  font-family: monospace;
+  font-size: 12px;
+}

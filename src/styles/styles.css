@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* COLOR PALETTE
+#54BAB9 teal
+#18978F green
+#E9DAC1 beige
+#F7ECDE light
+#fffcf9 lighter */
+
+body {
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+
+  background: linear-gradient(
+    0deg,
+    rgba(217, 234, 255, 1) 0%,
+    rgba(198, 254, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+}
+
+h2,
+h3 {
+  color: #454545;
+}
+
+h1 {
+  font-family: "Alfa Slab One", cursive;
+  display: inline;
+}
+
+form {
+  display: inline;
+  vertical-align: 6px;
+  margin-left: 30px;
+}
+
+.content {
+  margin-top: 130px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.current-location {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: #45454584;
+  border: none;
+  padding: 8px 15px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #454545;
+}
