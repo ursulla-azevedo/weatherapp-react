@@ -12,7 +12,7 @@ export default function Header() {
           placeholder="Change city here"
           className="search-input"
           id="search-input"
-          autocomplete="off"
+          autoComplete="off"
         />
       </form>
     </div>

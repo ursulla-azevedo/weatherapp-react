@@ -1,0 +1,53 @@
+/* FORECAST */
+
+.weather-forecast {
+  width: 70%;
+  border: none;
+}
+
+.forecast-content {
+  padding: 30px 0px;
+}
+
+.main.forecast-date {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.forecast-date {
+  font-size: 12px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.future-forecast-image {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+.bg-1 {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-2 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.highest-temperature-forecast {
+  width: 20px;
+}
+
+.forecast-temperature.highest-temperature-number {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.lowest-temperature-forecast {
+  width: 12px;
+}
+
+.forecast-temperature.lowest-temperature-number {
+  font-size: 14px;
+}

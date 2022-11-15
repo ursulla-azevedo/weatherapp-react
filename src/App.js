@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Header from "./Header";
 import MainForecast from "./MainForecast";
+import ExtraForecast from "./ExtraForecast";
 import Extras from "./Extras";
 import Footer from "./Footer";
 
@@ -22,6 +23,8 @@ function App() {
       <Header />
       <MainForecast />
       <Extras />
+      <h3>Daily forecast</h3>
+      <ExtraForecast />
       <Footer />
     </div>
   );
