@@ -1,6 +1,5 @@
 import "./styles/styles.css";
 import React from "react";
-import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import MainForecast from "./MainForecast";
@@ -10,7 +9,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <MainForecast />
+      <MainForecast defaultCity="Lisbon" />
       <h3>Daily forecast</h3>
       <ExtraForecast />
       <Footer />
