@@ -1,6 +1,8 @@
 import React from "react";
+import "./styles/mainforecast.css";
 
 import AppDate from "./AppDate";
+import TemperatureNow from "./TemperatureNow";
 
 import lowesttemp from "./media/weather-elements_Temperature-low.svg";
 import highesttemp from "./media/weather-elements_Temperature-high.svg";
@@ -71,18 +73,7 @@ export default function MainWeatherInfo(props) {
             <div className="status-top highlight" id="dateToday">
               <AppDate date={props.data.date} />
             </div>
-            <div className="temperature-data">
-              <span className="tempNow">{props.data.tempC}</span>
-              <span className="tempUnit mainTemp">
-                <span className="cUnit notClickable" id="cUnit">
-                  °C
-                </span>{" "}
-                |
-                <span href="#" className="fUnit clickable" id="fUnit">
-                  °F
-                </span>
-              </span>
-            </div>
+            <TemperatureNow celsius={props.data.tempC} />
             <div className="current-weather-details">
               <span className="weather-status text-capitalize">
                 {props.data.description}
