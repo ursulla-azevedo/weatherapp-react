@@ -1,3 +1,29 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #454545;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.057);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.search-input {
+  padding: 5px 10px;
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset black;
+}
+
+.search-input::placeholder {
+  text-align: center;
+  font-size: smaller;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /* CURRENT WEATHER */
 
 .weather-today {
@@ -73,4 +99,25 @@ a.notClickable.fUnit:hover,
 a.notClickable.cUnit:hover {
   color: black;
   cursor: default;
+}
+
+/* EXTRAS */
+
+.more-info {
+  padding: 10px 0px;
+  max-width: 70%;
+  background-color: #45454584;
+  margin: 0 auto;
+  color: white;
+}
+
+.extra-item {
+  margin: 0px 15px;
+  font-size: 14px;
+}
+
+#fahrenheitMessage {
+  margin-top: 10px;
+  font-size: 12px;
+  color: black;
 }

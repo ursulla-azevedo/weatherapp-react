@@ -8,120 +8,140 @@ import weatherimg from "./media/weather-elements_Sun.svg";
 export default function ExtraForecast() {
   return (
     <div className="ExtraForecast">
-      <div class="container weather-forecast">
+      <div className="container weather-forecast">
         <div className="row">
-          <div class="col forecast-content bg-1">
-            <div class="forecast-date main">Mon</div>
-            <div class="forecast-date">01/01</div>
-            <img src={weatherimg} alt="Weather" class="future-forecast-image" />
+          <div className="col forecast-content bg-1">
+            <div className="forecast-date main">Mon</div>
+            <div className="forecast-date">01/01</div>
+            <img
+              src={weatherimg}
+              alt="Weather"
+              className="future-forecast-image"
+            />
             <br />
             <img
               src={highesttemp}
               alt="Highest temperature"
-              class="highest-temperature-forecast"
+              className="highest-temperature-forecast"
             />
-            <span class="highest-temperature-number forecast-temperature">
+            <span className="highest-temperature-number forecast-temperature">
               12°C
             </span>
             <br />
             <img
               src={lowesttemp}
               alt="Lowest temperature"
-              class="lowest-temperature-forecast"
+              className="lowest-temperature-forecast"
             />
-            <span class="lowest-temperature-number forecast-temperature">
+            <span className="lowest-temperature-number forecast-temperature">
               8°C
             </span>
           </div>
-          <div class="col forecast-content bg-2">
-            <div class="forecast-date main">Tue</div>
-            <div class="forecast-date">02/01</div>
-            <img src={weatherimg} alt="Weather" class="future-forecast-image" />
+          <div className="col forecast-content bg-2">
+            <div className="forecast-date main">Tue</div>
+            <div className="forecast-date">02/01</div>
+            <img
+              src={weatherimg}
+              alt="Weather"
+              className="future-forecast-image"
+            />
             <br />
             <img
               src={highesttemp}
               alt="Highest temperature"
-              class="highest-temperature-forecast"
+              className="highest-temperature-forecast"
             />
-            <span class="highest-temperature-number forecast-temperature">
+            <span className="highest-temperature-number forecast-temperature">
               12°C
             </span>
             <br />
             <img
               src={lowesttemp}
               alt="Lowest temperature"
-              class="lowest-temperature-forecast"
+              className="lowest-temperature-forecast"
             />
-            <span class="lowest-temperature-number forecast-temperature">
+            <span className="lowest-temperature-number forecast-temperature">
               8°C
             </span>
           </div>
-          <div class="col forecast-content bg-1">
-            <div class="forecast-date main">Wed</div>
-            <div class="forecast-date">03/01</div>
-            <img src={weatherimg} alt="Weather" class="future-forecast-image" />
+          <div className="col forecast-content bg-1">
+            <div className="forecast-date main">Wed</div>
+            <div className="forecast-date">03/01</div>
+            <img
+              src={weatherimg}
+              alt="Weather"
+              className="future-forecast-image"
+            />
             <br />
             <img
               src={highesttemp}
               alt="Highest temperature"
-              class="highest-temperature-forecast"
+              className="highest-temperature-forecast"
             />
-            <span class="highest-temperature-number forecast-temperature">
+            <span className="highest-temperature-number forecast-temperature">
               12°C
             </span>
             <br />
             <img
               src={lowesttemp}
               alt="Lowest temperature"
-              class="lowest-temperature-forecast"
+              className="lowest-temperature-forecast"
             />
-            <span class="lowest-temperature-number forecast-temperature">
+            <span className="lowest-temperature-number forecast-temperature">
               8°C
             </span>
           </div>
-          <div class="col forecast-content bg-2">
-            <div class="forecast-date main">Thu</div>
-            <div class="forecast-date">04/01</div>
-            <img src={weatherimg} alt="Weather" class="future-forecast-image" />
+          <div className="col forecast-content bg-2">
+            <div className="forecast-date main">Thu</div>
+            <div className="forecast-date">04/01</div>
+            <img
+              src={weatherimg}
+              alt="Weather"
+              className="future-forecast-image"
+            />
             <br />
             <img
               src={highesttemp}
               alt="Highest temperature"
-              class="highest-temperature-forecast"
+              className="highest-temperature-forecast"
             />
-            <span class="highest-temperature-number forecast-temperature">
+            <span className="highest-temperature-number forecast-temperature">
               12°C
             </span>
             <br />
             <img
               src={lowesttemp}
               alt="Lowest temperature"
-              class="lowest-temperature-forecast"
+              className="lowest-temperature-forecast"
             />
-            <span class="lowest-temperature-number forecast-temperature">
+            <span className="lowest-temperature-number forecast-temperature">
               8°C
             </span>
           </div>
-          <div class="col forecast-content bg-1">
-            <div class="forecast-date main">Fri</div>
-            <div class="forecast-date">05/01</div>
-            <img src={weatherimg} alt="Weather" class="future-forecast-image" />
+          <div className="col forecast-content bg-1">
+            <div className="forecast-date main">Fri</div>
+            <div className="forecast-date">05/01</div>
+            <img
+              src={weatherimg}
+              alt="Weather"
+              className="future-forecast-image"
+            />
             <br />
             <img
               src={highesttemp}
               alt="Highest temperature"
-              class="highest-temperature-forecast"
+              className="highest-temperature-forecast"
             />
-            <span class="highest-temperature-number forecast-temperature">
+            <span className="highest-temperature-number forecast-temperature">
               12°C
             </span>
             <br />
             <img
               src={lowesttemp}
               alt="Lowest temperature"
-              class="lowest-temperature-forecast"
+              className="lowest-temperature-forecast"
             />
-            <span class="lowest-temperature-number forecast-temperature">
+            <span className="lowest-temperature-number forecast-temperature">
               8°C
             </span>
           </div>
