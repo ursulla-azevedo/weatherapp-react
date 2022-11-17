@@ -3,7 +3,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import MainForecast from "./MainForecast";
-import ExtraForecast from "./ExtraForecast";
 import Footer from "./Footer";
 
 function App() {

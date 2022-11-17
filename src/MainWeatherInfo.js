@@ -65,7 +65,6 @@ export default function MainWeatherInfo(props) {
       <h2>
         {props.data.city}, {props.data.country}
       </h2>
-      <button className="current-location">Search current location</button>
       <br />
       <div className="container weather-today">
         <div className="row">
