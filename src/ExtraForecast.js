@@ -4,8 +4,21 @@ import "./styles/extraforecast.css";
 import lowesttemp from "./media/weather-elements_Temperature-low.svg";
 import highesttemp from "./media/weather-elements_Temperature-high.svg";
 import weatherimg from "./media/weather-elements_Sun.svg";
+import axios from "axios";
 
-export default function ExtraForecast() {
+export default function ExtraForecast(props) {
+  function handleResponse(response) {
+    console.log(response.data);
+  }
+
+  let lat = props.coordinates.lat;
+  let lon = props.coordinates.lon;
+
+  const apiKey = "ebe18902b827f1f3a74fe66d32a941fb";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+
+  axios.get(apiUrl).then(handleResponse);
+
   return (
     <div className="ExtraForecast">
       <div className="container weather-forecast">

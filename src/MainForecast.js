@@ -3,6 +3,7 @@ import axios from "axios";
 import "./styles/mainforecast.css";
 
 import MainWeatherInfo from "./MainWeatherInfo";
+import ExtraForecast from "./ExtraForecast";
 
 export default function MainForecast(props) {
   let [weather, setWeather] = useState({ ready: false });
@@ -12,6 +13,7 @@ export default function MainForecast(props) {
     console.log(response.data);
     setWeather({
       ready: true,
+      coords: response.data.coord,
       city: response.data.name,
       country: response.data.sys.country,
       date: new Date(response.data.dt * 1000),
@@ -58,6 +60,8 @@ export default function MainForecast(props) {
           </form>
         </div>
         <MainWeatherInfo data={weather} />
+        <h3>Daily forecast</h3>
+        <ExtraForecast coordinates={weather.coords} />
       </div>
     );
   } else {

@@ -10,8 +10,6 @@ function App() {
   return (
     <div className="App">
       <MainForecast defaultCity="Lisbon" />
-      <h3>Daily forecast</h3>
-      <ExtraForecast />
       <Footer />
     </div>
   );
